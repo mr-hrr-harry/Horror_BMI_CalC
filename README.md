@@ -1,2 +1,2 @@
-# Horror_BMI_CalC
+# horror_bmi_calculator
  

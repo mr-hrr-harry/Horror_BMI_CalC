@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">  
+    <head>
+            <title>BMI Calculator</title>
+            <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <div id="calculator">
+            <h2 id="title">BMI CALCULATOR</h2> 
+            <br>
+
+            <p class="text">Height</p>
+            <input type="number" step="0.01" placeholder="Enter your Height" id="h" required>
+            <select id="hSel" class="unit" required>
+                <option value="none" disabled selected hidden>Hgt</option>
+                <option value="m">m</option>
+                <option value="in">in</option>
+            </select>
+            <br><br> 
+            
+            <p class="text">Weight</p>
+            <input type="number" step="0.1" placeholder="Enter your Weight" id="w" required>
+            <select id="wSel" class="unit" required>
+                <option value="none" disabled selected hidden>Wgt</option>
+                <option value="kg">kg</option>
+                <option value="lb">lb</option>
+            </select>
+            <br><br><br>
+            
+            <input type="number" id="res" placeholder="Your BMI Here" readonly>
+
+            <button id="btn" onclick="BMI()">Calculate</button>
+            
+        </div>
+        <div id="resDiv" hidden>
+            <div id="boxHead"> -- Your Status -- <span id="resValue"></span></div>
+            <img id="imgg">
+            <p id="category"></p>
+        </div>
+        
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
