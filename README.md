@@ -1,5 +1,5 @@
 # horror_bmi_calculator
-• To use this is as a web page service use: https://mr-horror-harry.github.io/Horror_CGPA_CalC/
+• To use this is as a web page service use: https://mr-horror-harry.github.io/Horror_BMI_CalC/
  
 • This is my BMI calculator on HTML, CSS, JS
  
