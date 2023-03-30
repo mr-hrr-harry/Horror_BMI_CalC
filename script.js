@@ -30,7 +30,9 @@ function BMI(){
     }   
     document.getElementById("res").value=res.toFixed(2);
     
-    document.getElementById("resDiv").removeAttribute("hidden");
+    const resDiv = document.getElementById("resDiv");
+    resDiv.removeAttribute("hidden");
+    resDiv.style.display="inline-block";
 
     if(res<18.5){
         document.getElementById("imgg").setAttribute("src","underweight.png");

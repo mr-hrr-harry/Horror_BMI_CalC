@@ -26,13 +26,18 @@ body{
     font-family: 'Tilt Warp', cursive;
 }
 #hdr > p{
+    padding: 5px 100px;
     margin: 20px 0 0 0;
+    border-radius: 20px;
+    background-color: #0000004e;
+    display: inline-block;
 }
 
 marquee{
     color: #000000;
     font-size: 15px;
     position: relative;
+    display: inline-block;
 }
 
 /* Calculator section */
@@ -44,7 +49,7 @@ marquee{
     position: relative;
     background-color: #000000;
     padding: 25px 50px;
-    margin: 100px;
+    margin: 75px;
     border-radius: 30px;
     box-shadow: 1px 1px 10px #000000;
 }
@@ -163,11 +168,10 @@ marquee{
 #resDiv{
     height: 450px;
     width: 300px;
-    display: inline-block;
     position: relative;
     background-color: #ffffff;
     padding: 25px 50px;
-    margin: 50px;
+    margin: 50px 100px;
     border-radius: 30px;
     box-shadow: 1px 1px 10px #000000;   
 
@@ -213,7 +217,7 @@ marquee{
 
 
 #ftr{
-    margin: 30px 20px 50px 20px;
+    margin: 10px 20px 50px 20px;
     padding: 20px;
     background: #fff;
     border-radius: 20px;
