@@ -4,13 +4,17 @@
     <head>
             <title>BMI Cal-C</title>
             <link rel="stylesheet" href="styles.css">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     </head>
     <body>
-        <div id="hdr"> - - Horror BMI Cal-C - - </div>
+        <div id="hdr">
+            <p>- - - Horror BMI Cal-C - - -</p> 
+            <marquee behavior="alternative" direction="left">B M I - C A L C U L A T O R</marquee>
+        </div>
 
         <div id="calculator">
-            <h2 id="title">BMI CALCULATOR</h2> 
+            <h2 id="title">BMI CALCULATOR</h2>
             <br>
 
             <p class="text">Height</p>
@@ -36,11 +40,23 @@
             <button id="btn" onclick="BMI()">Calculate</button>
             
         </div>
-        <div id="resDiv" hidden>
+        <div id="resDiv" hidden disabled>
             <div id="boxHead"> -- Your Status -- <span id="resValue"></span></div>
             <img id="imgg">
             <p id="category"></p>
         </div>
+
+        <footer id="ftr">
+            <p> - - Developed by Horror - -     </p>
+            <div class="social_media">
+                <a href="https://www.facebook.com/ma.harishj.7/" target="_blank" ><i class='bx bxl-facebook'></i></h1></a>
+                <a href="https://twitter.com/m_a_harish_j" target="_blank" ><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/m_a_harish_j/" target="_blank" ><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/m-a-harish-j-a69474209/" target="_blank" ><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/mr-horror-harry" target="_blank" ><i class='bx bxl-github'></i></a>
+                <a href="https://www.skillrack.com/faces/resume.xhtml?id=304818&key=ed4275e961c87503463e9cd03027f74bfb2e4873" target="_blank" ><i class='bx bx-code'></i></a>
+            </div>
+        </footer>
         
         <script type="text/javascript" src="script.js"></script>
     </body>
