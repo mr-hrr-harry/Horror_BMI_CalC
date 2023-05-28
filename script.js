@@ -17,7 +17,7 @@ function BMI(){
             res=wVal/(hVal*(hVal*1.0));
         }
         else{
-            res=(wVal/0.454)/(hVal*hVal);
+            res=(wVal*0.454)/(hVal*hVal);
         }
     }
     else if(hUt=='in'){
